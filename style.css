@@ -9,11 +9,11 @@ body{
     background: #222;
 }
 .card{
-    width: 90%;
-    max-width: 600px;
-    background: linear-gradient(135deg, #00feba, #5b548a);
+    max-width: 500px;
+    width: 80%;
+    background: linear-gradient(15deg, #0fd44a, #210dd5);
     color: #fff;
-    margin: 100px auto ;
+    margin: 20px auto ;
     border-radius: 20px;
     padding: 40px 35px;
     text-align: center;
@@ -37,6 +37,19 @@ body{
     font-size: 18px;
     text-align: center;
 
+}
+.msg{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background: linear-gradient(15deg, #0fd44a, #1d0dac);
+    margin: 100px auto ;
+    border-radius: 20px;
+    padding: 40px 35px;
+    text-align: center;
+
+     
 }
 
 input::placeholder {
